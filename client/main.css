@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "k8x12";
-  src: url("/font/k8x12.ttf") format("truetype");
-}
-/* https://littlelimit.net/k8x12.htm */
-
 body {
   padding: 10px;
 }
