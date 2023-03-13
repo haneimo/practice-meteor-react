@@ -1,18 +1,14 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 
-export const Lane = () => {
-
+export const Lane = (props) => {
     return (
         <div className="col">
-            <ul className="nes-list is-disc">
-                <li>Item1</li>
-            </ul>
-            <div className="nes-container with-title">
-                <h2 className="title">メモ</h2>
-                <div className="nes-textarea">メモ１</div>
-                {[...Array(5)].forEach((i)=>{
+            <div className="card center-block">
+                <h2 className="title">{props.title}</h2>
+                {[...Array(5)].map((i)=>{
                     return(
-                        <div>カード{i}</div>
+                        <Card contentEditable="true" style={{margin: '2px', padding: '2px'}}>カード{i}</Card>
                     );
                 })}
             </div>

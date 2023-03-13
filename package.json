@@ -10,6 +10,7 @@
   "dependencies": {
     "@babel/runtime": "^7.20.7",
     "bootstrap": "^5.2.3",
+    "bootstrap-honoka": "^4.4.0",
     "meteor-node-stubs": "^1.2.5",
     "nes.css": "^2.3.0",
     "react": "^18.2.0",
